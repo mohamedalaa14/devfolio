@@ -1,0 +1,232 @@
+.navbarmod 
+{
+   background-color: black !important;
+    opacity: .8;
+    z-index: 5555;
+}
+
+.home 
+{
+    
+    width: 100%;
+    height: 100vh;
+   background-image: url(images/intro-bg.jpg);
+   background-position: center;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   
+}
+.dark 
+{
+    background-color: rgba(0, 0, 0, .7);
+}
+.content h2 
+{
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@keyframes animation1 
+{
+    5%{ content: " D";}
+    10%{ content: " De";}
+    20%{ content: " Dev";}
+    30%{ content: " Deve";}
+    50%{ content: " Devel";}
+    60%{ content: " Develo ";}
+    70%{ content: " Develop";}
+    80%{ content: " Develope";}
+    90%{ content: " Developer";}
+  
+}
+@keyframes animation2
+ {
+    5%{ content: " a ";}
+    10%{ content: " a f";}
+    20%{ content: " a fr";}
+    30%{ content: " a fre";}
+    40%{ content: " a free";}
+    50%{ content: " a freel";}
+    60%{ content: " a freela";}
+    70%{ content: " a freelan";}
+    80%{ content: " a freelanc";}
+    90%{ content: " a freelance";}
+    100%{ content: " a freelancer.";}
+}
+@keyframes animation3 
+{
+    5%{ content: " a ";}
+    10%{ content: " a p";}
+    20%{ content: " a ph";}
+    30%{ content: " a pho";}
+    35%{ content: " a phot";}
+    40%{ content: " a photo";}
+    45%{ content: " a photog";}
+    50%{ content: " a photogr";}
+    55%{ content: " a photogra";}
+    60%{ content: " a photograp";}
+    70%{ content: " a photograph";}
+    80%{ content: " a photographe";}
+    90%{ content: " a photographer";}
+    100%{ content: " a photographer.";}
+}
+.content h3::before 
+{
+    content: "";
+    animation: animation1 infinite 3s  alternate ,animation2 infinite 3s 6s alternate , animation3 infinite 3s 12s  ;
+}
+.progress-name h4
+{
+    font-size: 1rem;
+}
+.section2 
+{
+    background-color: #f1f1f1;
+}
+.title2 h3::after
+{
+    content: "";
+  background-color: #0d6efd;
+  position: absolute;
+  height: 2px;
+  width: 95px;
+  top:85px;
+  left:13px;
+
+}
+.services 
+{
+    background-color: #f1f1f1;
+}
+.title3 h2::after 
+{
+   content: "";
+   background-color: #0d6efd;
+   position: absolute;
+   height: 2px;
+   width: 95px;
+   top:80px;
+   left:710px;
+}
+.title3
+{
+
+}
+.cards i
+{
+  border: #0d6efd solid 5px;
+}
+.icons4 
+{
+    border: #f1f1f1 5px solid;
+
+}
+.hamada 
+{
+    background-color: rgba(23, 108, 219, 0.7);
+   
+    
+}
+.section4 
+{
+    background-image: url(images/counters-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.plus 
+{
+    color: #007aff;
+}
+.image 
+{
+    overflow: hidden;
+}
+.image:hover img
+{
+
+    transform: scale(1.5);
+}
+.image img 
+{
+    transition:  2s;
+}
+.slider 
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.carousel-item 
+{
+   background-color:  rgba(23, 108, 219, 0.7);
+}
+.picture 
+{
+    width: 10%;
+}
+.caption
+{
+    background-color: #007aff;
+    border-radius: 5px;
+    top: 55%;
+    left: 50%;
+    color: white;
+    padding: 5px 10px;
+}
+.endbar 
+{
+  
+    background-color: #f1f1f1;
+   
+
+}
+.endbar img 
+{
+    width: 5%;
+}
+
+input 
+{
+    width: 100%;
+    margin-top:2rem;
+    
+}
+textarea
+{
+    width: 100%;
+    height: 70px;
+    margin-top: 2rem;
+}
+.button  
+{
+
+    background-color: #007aff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+   
+
+}
+.pr 
+{
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 300;
+}
+.link 
+{
+    border: solid #007aff 3px;
+    margin-left: 2px;
+}
+.link1 
+{
+    color: #007aff;
+}
+.end 
+{
+    background-color: #007aff;
+    color: white;
+}
